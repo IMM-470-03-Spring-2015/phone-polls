@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say>Welocme to the 2015 Oscars Phone Poll</Say>
+    <Say>What was your favorite movie this year? Record your answer at the beep. Press the pound key when you're done recording.</Say>
+    <Record 
+        action="http://www.tcnj.edu/~thompsom/imm-470-03/phone-polls/record.php"
+        method="GET"
+        maxLength="20"
+        finishOnKey="#"
+    />
+</Response>
