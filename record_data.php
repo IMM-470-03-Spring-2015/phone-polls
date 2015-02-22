@@ -1,13 +1,16 @@
 <?php
+  header('Content-type: text/xml');
+  echo '<?xml version="1.0" encoding="UTF-8"?>';  
+  
+  // collect the selection number
   $selection = (int) $_REQUEST['Digits'];
+  // collect the cller's phone number
   $from = $_REQUEST["From"];
+  // get the exact time of the response
   $t = time();
   
   // open a file ponter to write our data
   $fp = fopen("data.txt", "a");
-
-  header('Content-type: text/xml');
-  echo '<?xml version="1.0" encoding="UTF-8"?>';  
     
   echo '<Response>';
  
