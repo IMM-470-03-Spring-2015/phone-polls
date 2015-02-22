@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <!-- ask poll question, default finish key is # -->
+  <Gather action="./record_data.php" method="get">
+    <Say>Welcome to the 2015 Oscars phone poll.</Say>
+    <Say>What film would you vote for for Best Picture?</Say>
+    <Say>Press 1 for American Sniper.</Say>
+    <Say>Press 2 for Birdman.</Say>
+    <Say>Press 3 for Boyhood.</Say>
+    <Say>Press 4 for The Grand Budapest Hotel.</Say>
+    <Say>Press 5 for The Imatation Game.</Say>
+    <Say>Press 6 for Selma.</Say>
+    <Say>Press 7 for The Theory of Everything.</Say>
+    <Say>Press 8 for Whiplash.</Say>
+    <Say>Or press 9 to repeat these choices.</Say>
+  </Gather>
+</Response>
