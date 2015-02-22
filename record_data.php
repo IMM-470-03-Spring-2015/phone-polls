@@ -64,9 +64,9 @@
       echo "<Say>I didn't understand your selection.</Say><Redirect>./poll_gather.xml</Redirect>";
     break;
   }
+  
+  // close out file pointer
+  fclose($fp);
  
   echo '</Response>';
-
-// close out file pointer
-fclose($fp);
 ?>
