@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
   <!-- ask poll question, default finish key is # -->
-  <Gather action="./response.php" method="get">
+  <Gather action="./respond.php" method="get">
     <Say>Welcome to the 2015 Oscars phone poll.</Say>
     <Say>What film would you vote for for Best Picture?</Say>
     <Say>Press 1 for American Sniper.</Say>

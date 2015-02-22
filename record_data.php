@@ -69,11 +69,11 @@
         break;
     
         case 9:
-            echo "<Say>O K. Redirecting back to the choices.</Say><Redirect>./poll_gather.xml</Redirect>";
+            echo "<Say>O K. Redirecting back to the choices.</Say><Redirect>./poll_gather_data.xml</Redirect>";
         break;        
     
         default:
-            echo "<Say>I didn't understand your selection.</Say><Redirect>./poll_gather.xml</Redirect>";
+            echo "<Say>I didn't understand your selection.</Say><Redirect>./poll_gather_data.xml</Redirect>";
         break;
     }
   
