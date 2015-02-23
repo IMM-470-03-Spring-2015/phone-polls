@@ -22,6 +22,9 @@
 
     // write the data file
     fwrite($fp, $from . ',Favorite Movie this year,' . $recording . ',' . $duration . ',' . date("c", $t) . "\n");
+
+    // close out file pointer
+    fclose($fp);
 ?>
 <Response>
     <Say>Thanks for taking our poll. Your favorite movie this year was</Say>
