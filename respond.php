@@ -9,35 +9,35 @@
  
     switch($selection){
         case 1:
-            echo "<Say>Thanks for your response. You chose American Sniper.</Say>";
+            echo "<Say>Thanks for your response. You chose The Big Short.</Say>";
         break;
         
         case 2:
-            echo "<Say>Thanks for your response. You chose Birdman.</Say>";
+            echo "<Say>Thanks for your response. You chose Bridge of Spies.</Say>";
         break;
         
         case 3:
-            echo "<Say>Thanks for your response. You chose Boyhood.</Say>";
+            echo "<Say>Thanks for your response. You chose Brooklyn.</Say>";
         break;
     
         case 4:
-            echo "<Say>Thanks for your response. You chose The Grand Budapest Hotel.</Say>";
+            echo "<Say>Thanks for your response. You chose Mad Max Fury Road.</Say>";
         break;
     
         case 5:
-            echo "<Say>Thanks for your response. You chose The Imatation Game.</Say>";
+            echo "<Say>Thanks for your response. You chose The Martian.</Say>";
         break;
     
         case 6:
-            echo "<Say>Thanks for your response. You chose Selma.</Say>";
+            echo "<Say>Thanks for your response. You chose The Revenant.</Say>";
         break;
     
         case 7:
-            echo "<Say>Thanks for your response. You chose The Theory of Everything.</Say>";
+            echo "<Say>Thanks for your response. You chose Room.</Say>";
         break;
     
         case 8:
-            echo "<Say>Thanks for your response. You chose Whiplash.</Say>";
+            echo "<Say>Thanks for your response. You chose Spotlight.</Say>";
         break;
     
         case 9:
