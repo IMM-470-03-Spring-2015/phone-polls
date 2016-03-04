@@ -22,50 +22,50 @@
     switch($selection){
         case 1:
             // write the callers phone number, selection, a timestamp of the record & respond
-            fwrite($fp, $from . ',Best Picture,American Sniper,' . date("c", $t) . "\n");
-            echo "<Say>Thanks for your response. You chose American Sniper.</Say>";
+            fwrite($fp, $from . ',Best Picture,The Big Short,' . date("c", $t) . "\n");
+            echo "<Say>Thanks for your response. You chose The Big Short.</Say>";
         break;
         
         case 2:
             // write the callers phone number, selection, a timestamp of the record & respond
-            fwrite($fp, $from . ',Best Picture,Birdman,' . date("c", $t) . "\n");
-            echo "<Say>Thanks for your response. You chose Birdman.</Say>";
+            fwrite($fp, $from . ',Best Picture,Bridge of Spies,' . date("c", $t) . "\n");
+            echo "<Say>Thanks for your response. You chose Bridge of Spies.</Say>";
         break;
         
         case 3:
             // write the callers phone number, selection, a timestamp of the record & respond
-            fwrite($fp, $from . ',Best Picture,Boyhood,' . date("c", $t) . "\n");
-            echo "<Say>Thanks for your response. You chose Boyhood.</Say>";
+            fwrite($fp, $from . ',Best Picture,Brooklyn,' . date("c", $t) . "\n");
+            echo "<Say>Thanks for your response. You chose Brooklyn.</Say>";
         break;
     
         case 4:
             // write the callers phone number, selection, a timestamp of the record & respond
-            fwrite($fp, $from . ',Best Picture,The Grand Budapest Hotel,' . date("c", $t) . "\n");
-            echo "<Say>Thanks for your response. You chose The Grand Budapest Hotel.</Say>";
+            fwrite($fp, $from . ',Best Picture,Mad Max Fury Road,' . date("c", $t) . "\n");
+            echo "<Say>Thanks for your response. You chose Mad Max Fury Road.</Say>";
         break;
     
         case 5:
             // write the callers phone number, selection, a timestamp of the record & respond
-            fwrite($fp, $from . ',Best Picture,The Imatation Game,' . date("c", $t) . "\n");
-            echo "<Say>Thanks for your response. You chose The Imatation Game.</Say>";
+            fwrite($fp, $from . ',Best Picture,The Martian,' . date("c", $t) . "\n");
+            echo "<Say>Thanks for your response. You chose The Martian.</Say>";
         break;
     
         case 6:
             // write the callers phone number, selection, a timestamp of the record & respond
-            fwrite($fp, $from . ',Best Picture,Selma,' . date("c", $t) . "\n");
-            echo "<Say>Thanks for your response. You chose Selma.</Say>";
+            fwrite($fp, $from . ',Best Picture,The Revenant,' . date("c", $t) . "\n");
+            echo "<Say>Thanks for your response. You chose The Revenant.</Say>";
         break;
     
         case 7:
             // write the callers phone number, selection, a timestamp of the record & respond
-            fwrite($fp, $from . ',Best Picture,The Theory of Everything,' . date("c", $t) . "\n");
-            echo "<Say>Thanks for your response. You chose The Theory of Everything.</Say>";
+            fwrite($fp, $from . ',Best Picture,Room,' . date("c", $t) . "\n");
+            echo "<Say>Thanks for your response. You chose Room.</Say>";
         break;
     
         case 8:
             // write the callers phone number, selection, a timestamp of the record & respond
-            fwrite($fp, $from . ',Best Picture,Whiplash,' . date("c", $t) . "\n");
-            echo "<Say>Thanks for your response. You chose Whiplash.</Say>";
+            fwrite($fp, $from . ',Best Picture,Spotlight,' . date("c", $t) . "\n");
+            echo "<Say>Thanks for your response. You chose Spotlight.</Say>";
         break;
     
         case 9:
