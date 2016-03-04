@@ -16,6 +16,8 @@
     $fp = fopen("data.txt", "a");
 
     switch($msg){
+        case "Poll":
+        case "POLL":
         case "poll":
             $out = "Thanks for taking our poll! Text us back with the name of your favorite movie from last year!";
         break;
