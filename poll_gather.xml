@@ -2,7 +2,7 @@
 <Response>
   <!-- ask poll question, default finish key is # -->
   <Gather action="./respond.php" method="get">
-    <Say>Welcome to the 2015 Oscars phone poll.</Say>
+    <Say>Welcome to the 2016 Oscars phone poll.</Say>
     <Say>What film would you vote for for Best Picture?</Say>
     <Say>Press 1 for The Big Short.</Say>
     <Say>Press 2 for Bridge of Spies.</Say>
